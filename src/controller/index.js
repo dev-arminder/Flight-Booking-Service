@@ -1,3 +1,4 @@
 module.exports = {
-  HomeController: require('./home')
+  InfoController: require('./info-controller'),
+  BookingController: require('./booking-controller')
 }

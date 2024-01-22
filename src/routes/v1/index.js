@@ -1,8 +1,8 @@
 const expres = require('express');
 const router = expres.Router();
 
-const { HomeController } = require('../../controller/index')
+const { InfoController } = require('../../controller/index')
 
-router.get('/info', HomeController.info)
+router.get('/info', InfoController.info)
 
 module.exports = router
